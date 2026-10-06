@@ -486,7 +486,7 @@ function showQuestion() {
 
 
   progressFill.style.width =
-    `${((currentQuestion + 1) / 5) * 100}%`;
+  `${(currentQuestion / 5) * 100}%`;
 
 
   messageCard.innerHTML =
